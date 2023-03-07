@@ -1,6 +1,7 @@
 import './App.css';
 import {useTypewriter,Cursor} from 'react-simple-typewriter'
 import 'react-simple-typewriter/dist/index'
+import {Glitch} from "react-teffex"
 function App() {
   let [text] = useTypewriter({
     words: [' Learner',' Developer',' Ai enthusiast'],
@@ -14,7 +15,8 @@ function App() {
     <div className="father">
       <div className="leftside">
         <div className="namehere">
-        <h1 className='myname'>Sabyasachi panda</h1>
+        
+        <h1 className='myname'><Glitch buffer={13} text={"Sabyasachi Panda"}></Glitch></h1>
         </div>
         
         <div className="photosec">
@@ -37,7 +39,7 @@ function App() {
           
         </div>
         <div className="connect">
-          <h3 className="cwm">connect with me</h3>
+          <h3 className="cwm"><Glitch buffer={13} text={"connect with me"}></Glitch></h3>
         </div>
         <div className="fatheroflinks">
 
@@ -68,6 +70,7 @@ function App() {
         <div className="quote">
           <h5>Failure is not an option -- it comes bundled with Windows</h5>
         </div>
+        
       </div>
     </div>
   </div>
