@@ -163,4 +163,7 @@ hr{
   h5{
     margin-left: 0px;
   }
+  .rightside{
+    width: 400px;
+  }
 }
